@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>BMI Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1 class="heading">BMI Calculator</h1>
+        <span>Your height(cm) : </span>
+        <input type="number" value="180" placeholder="Height(cm)" class="height-val" id="height">
+        <span>Your weight(kg)</span>
+        <input type="number" value="80" placeholder="Weight(kg)" id="weight" class="weight-val">
+        <button type="submit" class="calculate" id="cal">Calculate BMI</button>
+        <input disabled type="text" class="bmi-output" id="ans">
+        <h4 class="weight-output">  Weight condition : <span  id="weight-ans"></span></h4>
+        
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
